@@ -1,0 +1,40 @@
+@import 'https://fonts.googleapis.com/css?family=Libre+Baskerville';
+
+html,
+body {
+  font-size: 10px;
+}
+
+.cover {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1.8rem;
+  line-height: 1.2;
+  height: 100vh;
+
+  background-image:linear-gradient(to bottom, rgba(0,0,0,0.45) 0%, rgba(0,0,0,0.35) 100%), url('https://c4.staticflickr.com/8/7316/9349246483_6838d8c527_h.jpg');
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  max-width: 600px;
+  margin:0 auto;
+}
+
+.content {
+  padding: 1rem 2rem; 
+  color: white;
+}
+
+ul {
+  margin-bottom: 1rem;
+}
+
+a {
+  color: gold;
+}
