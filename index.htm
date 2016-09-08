@@ -1,10 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Experience UCI in VR</title>
+	<title>VR MTB World Championships 2016</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<!-- You can use open graph tags to customize link previews.
+    Learn more: https://developers.facebook.com/docs/sharing/webmasters -->
+	<meta property="og:url"           content="http://uci.wrappingreality.com" />
+	<meta property="og:type"          content="website" />
+	<meta property="og:title"         content="VR MTB World Championships 2016" />
+	<meta property="og:description"   content="Vivi il mondiale di MTB attraverso la realtá virtuale" />
+	<meta property="og:image"         content="http://wrappingreality.com/uploads/s/3/4/z/34ze6y3ehqej/img/pzW2E7A7.png" />
+
 </head>
 <body>
+<!-- Load Facebook SDK for JavaScript -->
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));
+	</script>
+
+
 	<div class="cover">
 	  <div class="container">
 	    <div class="content">
@@ -16,6 +37,10 @@
 	          <li>yo yoy yyo oyo oy</li>
 	          <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia sequi doloribus nulla cumque et nostrum facere nam tenetur doloremque architecto. Quia, eligendi eveniet. Ipsa ad aliquam ducimus repudiandae aspernatur voluptate.</li>
 	          <li>this</li>
+
+	          <!-- FB like button code -->
+			<div class="fb-like" data-href="https://www.facebook.com/wrappingreality/" data-layout="button" data-action="like" data-show-faces="true" data-share="false"></div>
+
 	        </ul>
 	      </div>
 	      <div>This is another sentence</a></div>
