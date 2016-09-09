@@ -24,7 +24,6 @@ body {
   flex-direction: column;
   justify-content: center;
   height: 100vh;
-  max-width: 600px;
   margin:0 auto;
 }
 
@@ -39,4 +38,8 @@ ul {
 
 a {
   color: gold;
+}
+
+#mc_embed_signup {
+  background: red;
 }
