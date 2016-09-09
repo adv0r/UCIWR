@@ -14,7 +14,6 @@ body {
   height: 100vh;
   background-image:linear-gradient(to bottom, rgba(0,0,0,0.45) 0%, rgba(0,0,0,0.35) 100%), url('https://uci.wrappingreality.com/img/bg.jpg');
   background-size: cover;
-  background-repeat:no-repeat;
   background-position: center;
 }
 
@@ -32,6 +31,13 @@ body {
   color: white;
 }
 
+.description {
+    font-size: 1.4rem;
+}
+
+.small-description {
+    font-size: 1.1rem;
+}
 ul {
   margin-bottom: 1rem;
 }
@@ -40,7 +46,7 @@ a {
   color: gold;
 }
 
-a img {
+.imgCenter {
     display:block;
     margin:auto;
     margin-top: 20px;
