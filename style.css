@@ -41,5 +41,5 @@ a {
 }
 
 #mc_embed_signup {
-  background: red;
+  background: red !important;
 }
